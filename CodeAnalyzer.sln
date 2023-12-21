@@ -10,6 +10,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SourceGenerator", "01_SourceGenerators\SourceGenerator\SourceGenerator.csproj", "{F288DEBD-2D46-41A3-96BA-5777083AF773}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_AnalyzingCodeTreeStructure", "02_AnalyzingCodeTreeStructure", "{30D93C32-A2A8-4350-A161-246DF95B84DA}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeAnalyzer", "02_AnalyzingCodeTreeStructure\Splitting a code to its components\CodeAnalyzer.csproj", "{B165C100-09AD-41DE-B3DC-181BAF68238C}"
 EndProject
