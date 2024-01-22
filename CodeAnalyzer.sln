@@ -16,6 +16,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_AnalyzingCodeTreeStructu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeAnalyzer", "02_AnalyzingCodeTreeStructure\Splitting a code to its components\CodeAnalyzer.csproj", "{B165C100-09AD-41DE-B3DC-181BAF68238C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_Callback", "03_Callback", "{2670CCA5-8814-4EC2-9092-30C6D5A75B12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Callback", "03_Callback\Callback\Callback.csproj", "{F8F087BF-5015-4B75-B2A7-33CC7AF3C09C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +38,10 @@ Global
 		{B165C100-09AD-41DE-B3DC-181BAF68238C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B165C100-09AD-41DE-B3DC-181BAF68238C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B165C100-09AD-41DE-B3DC-181BAF68238C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8F087BF-5015-4B75-B2A7-33CC7AF3C09C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8F087BF-5015-4B75-B2A7-33CC7AF3C09C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8F087BF-5015-4B75-B2A7-33CC7AF3C09C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8F087BF-5015-4B75-B2A7-33CC7AF3C09C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +50,7 @@ Global
 		{E4AB5209-4BA6-49C1-A407-998DC4CA185A} = {422ED22A-D0F1-47B1-B4E4-7DDB08FA31EB}
 		{F288DEBD-2D46-41A3-96BA-5777083AF773} = {422ED22A-D0F1-47B1-B4E4-7DDB08FA31EB}
 		{B165C100-09AD-41DE-B3DC-181BAF68238C} = {30D93C32-A2A8-4350-A161-246DF95B84DA}
+		{F8F087BF-5015-4B75-B2A7-33CC7AF3C09C} = {2670CCA5-8814-4EC2-9092-30C6D5A75B12}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7BD3DAA0-BA8D-4490-9222-73425E6A1790}
